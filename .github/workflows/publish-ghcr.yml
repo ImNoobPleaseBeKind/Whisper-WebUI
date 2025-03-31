@@ -85,3 +85,4 @@ jobs:
           docker tag ghcr.io/${{ env.REPO_OWNER_LC }}/${{ matrix.name }}:${{ env.GIT_TAG }} \
                      ghcr.io/${{ env.REPO_OWNER_LC }}/${{ matrix.name }}:latest
           docker push ghcr.io/${{ env.REPO_OWNER_LC }}/${{ matrix.name }}:latest
+
